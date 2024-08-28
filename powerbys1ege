@@ -1,0 +1,175 @@
+{
+    "objectClassName": "domain",
+    "handle": "2739632519_DOMAIN_COM-VRSN",
+    "ldhName": "RANGOONMARKET.COM",
+    "links": [
+        {
+            "value": "https://rdap.verisign.com/com/v1/domain/RANGOONMARKET.COM",
+            "rel": "self",
+            "href": "https://rdap.verisign.com/com/v1/domain/RANGOONMARKET.COM",
+            "type": "application/rdap+json"
+        },
+        {
+            "value": "https://rdap.registrar.amazon.com/rdap/domain/RANGOONMARKET.COM",
+            "rel": "related",
+            "href": "https://rdap.registrar.amazon.com/rdap/domain/RANGOONMARKET.COM",
+            "type": "application/rdap+json"
+        }
+    ],
+    "status": [
+        "active"
+    ],
+    "entities": [
+        {
+            "objectClassName": "entity",
+            "handle": "468",
+            "roles": [
+                "registrar"
+            ],
+            "publicIds": [
+                {
+                    "type": "IANA Registrar ID",
+                    "identifier": "468"
+                }
+            ],
+            "vcardArray": [
+                "vcard",
+                [
+                    [
+                        "version",
+                        {},
+                        "text",
+                        "4.0"
+                    ],
+                    [
+                        "fn",
+                        {},
+                        "text",
+                        "Amazon Registrar, Inc."
+                    ]
+                ]
+            ],
+            "entities": [
+                {
+                    "objectClassName": "entity",
+                    "roles": [
+                        "abuse"
+                    ],
+                    "vcardArray": [
+                        "vcard",
+                        [
+                            [
+                                "version",
+                                {},
+                                "text",
+                                "4.0"
+                            ],
+                            [
+                                "fn",
+                                {},
+                                "text",
+                                ""
+                            ],
+                            [
+                                "tel",
+                                {
+                                    "type": "voice"
+                                },
+                                "uri",
+                                "tel:+1.2024422253"
+                            ],
+                            [
+                                "email",
+                                {},
+                                "text",
+                                "abuse@amazonaws.com"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "events": [
+        {
+            "eventAction": "registration",
+            "eventDate": "2022-11-20T02:58:46Z"
+        },
+        {
+            "eventAction": "expiration",
+            "eventDate": "2024-11-20T02:58:46Z"
+        },
+        {
+            "eventAction": "last changed",
+            "eventDate": "2023-10-20T22:46:35Z"
+        },
+        {
+            "eventAction": "last update of RDAP database",
+            "eventDate": "2024-08-28T09:45:09Z"
+        }
+    ],
+    "secureDNS": {
+        "delegationSigned": false
+    },
+    "nameservers": [
+        {
+            "objectClassName": "nameserver",
+            "ldhName": "NS-1300.AWSDNS-34.ORG"
+        },
+        {
+            "objectClassName": "nameserver",
+            "ldhName": "NS-177.AWSDNS-22.COM"
+        },
+        {
+            "objectClassName": "nameserver",
+            "ldhName": "NS-1780.AWSDNS-30.CO.UK"
+        },
+        {
+            "objectClassName": "nameserver",
+            "ldhName": "NS-858.AWSDNS-43.NET"
+        }
+    ],
+    "rdapConformance": [
+        "rdap_level_0",
+        "icann_rdap_technical_implementation_guide_0",
+        "icann_rdap_response_profile_0"
+    ],
+    "notices": [
+        {
+            "title": "Terms of Use",
+            "description": [
+                "Service subject to Terms of Use."
+            ],
+            "links": [
+                {
+                    "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+                    "type": "text/html"
+                }
+            ]
+        },
+        {
+            "title": "Status Codes",
+            "description": [
+                "For more information on domain status codes, please visit https://icann.org/epp"
+            ],
+            "links": [
+                {
+                    "href": "https://icann.org/epp",
+                    "type": "text/html"
+                }
+            ]
+        },
+        {
+            "title": "RDDS Inaccuracy Complaint Form",
+            "description": [
+                "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+            ],
+            "links": [
+                {
+                    "href": "https://icann.org/wicf",
+                    "type": "text/html"
+                }
+            ]
+        }
+    ]
+}
